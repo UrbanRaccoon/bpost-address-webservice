@@ -1,30 +1,30 @@
 {
-    "name": "UrbanRaccoon/bpost-address-webservice",
+    "name": "urbanraccoon/bpost-address-webservice",
     "description": "API wrapper for bpost's address webservice",
     "keywords": [
         "spatie",
         "bpost-address-webservice"
     ],
-    "homepage": "https://github.com/spatie/bpost-address-webservice",
+    "homepage": "https://github.com/UrbanRaccoon/bpost-address-webservice",
     "license": "MIT",
     "authors": [
         {
-            "name": "Sebastian De Deyne",
-            "email": "sebastian@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Pieter Marchand",
+            "email": "pieter.marchand@yeastconsulting.be",
+            "homepage": "https://yeastconsulting.be",
             "role": "Developer"
         }
     ],
     "require": {
         "php": "~8.0",
-        "guzzlehttp/guzzle": "^6.3.3|^7.0",
-        "guzzlehttp/promises": "^1.3",
-        "guzzlehttp/psr7": "^1.5"
+        "guzzlehttp/guzzle": ">=7.0",
+        "guzzlehttp/promises": ">=1.3",
+        "guzzlehttp/psr7": ">=1.5"
     },
     "require-dev": {
-        "larapack/dd": "^1.0",
-        "phpunit/phpunit": "^7.4",
-        "spatie/phpunit-snapshot-assertions": "^2.0"
+        "larapack/dd": ">=1.0",
+        "phpunit/phpunit": ">=7.4",
+        "spatie/phpunit-snapshot-assertions": ">=2.0"
     },
     "autoload": {
         "psr-4": {
